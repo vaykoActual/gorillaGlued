@@ -1,0 +1,34 @@
+{
+  "name": "gorillaGlued",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "heroku": "^7.47.12",
+    "mongoose": "^5.11.16",
+    "morgan": "^1.10.0",
+    "snap": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaykoActual/gorillaGlued.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaykoActual/gorillaGlued/issues"
+  },
+  "homepage": "https://github.com/vaykoActual/gorillaGlued#readme"
+}
